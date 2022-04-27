@@ -1,0 +1,47 @@
+/*Размеры окна*/
+.header {
+    min-width: 1024px;
+    max-width: 1920px;
+    background-color: #eb5757;
+    margin: auto;
+}
+
+/*header_logo*/
+.header__logo{
+    display: flex;
+    vertical-align: top;
+    margin: 0 15px;
+}
+
+/*праильно*/
+.header__All{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*nav_link* правильно*/
+.nav__link {
+    margin: 0 30px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-decoration: none;
+    tansition: all .3s linear;
+    }
+
+/*праильно*/
+.nav__link:hover{
+    border-radius: 10px;
+    background: #333;
+    padding: 5px;
+   }
+
+.header_cart{
+    border-radius: 10px;
+    background: #333;
+    padding: 5px 10px 5px 10px;
+    margin: 0 20px;
+}
+
+
